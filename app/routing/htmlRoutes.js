@@ -1,3 +1,5 @@
+const path = require("path");
+
 // Your htmlRoutes.js file should include two routes:
 module.exports = function(app) {   
 // A GET Route to /survey which should display the survey page.
