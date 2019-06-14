@@ -13,4 +13,8 @@ $(".submit").on("click", function(event) {
 
     console.log(friend);
 
+    $.post("/api/friends", friend,
+      function(data) {
+        // console.log(data)
+      });
 });
