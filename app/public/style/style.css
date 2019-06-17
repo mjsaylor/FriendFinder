@@ -1,9 +1,48 @@
-.main {
+/* font-family: 'Mali', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Shadows Into Light', cursive; */
+
+body {
     background-color: #a09cb0;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.content {
+    width: 800px;
+    margin: 100px auto;
+    height: 400px;
+    padding: 60px;
+    background-color: #B3C2E2;
+    text-align: center;
+}
+
+button {
+    font-family:'Pacifico', cursive;
+    background-color: #ABDAE1;
+    border: none;
+    color:#987D7C;
+    padding:10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color:#987D7C;
+    border: none;
+    color:#ABDAE1;
 }
 
 h1 {
+    margin: 80px auto;
     text-align: center;
+    font-size: 36px;
+    font-family:'Mali', cursive;
+
 }
    
     
