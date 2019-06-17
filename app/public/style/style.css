@@ -19,6 +19,38 @@ body {
     text-align: center;
 }
 
+.question {
+    margin: 10px auto;
+
+}
+
+h1 {
+    margin: 80px auto;
+    text-align: center;
+    font-size: 36px;
+    font-family:'Mali', cursive;
+}
+
+h2 {
+    font-size: 12px;
+    font-family: 'Pacifico', cursive;
+    color: #907AD6;
+}
+
+h4 {
+    font-size: 18px;
+    font-family:'Mali', cursive;
+    color: #E5E6E8;
+}
+
+.survey {
+    width: 960px;
+    margin: 100px auto;
+    height: 100%;
+    padding: 60px;
+    background-color: #B3C2E2;
+}
+
 button {
     font-family:'Pacifico', cursive;
     background-color: #ABDAE1;
@@ -29,20 +61,13 @@ button {
     text-decoration: none;
     font-size: 12px;
     border-radius: 8px;
+    margin: 60px auto;
 }
 
 button:hover {
     background-color:#987D7C;
     border: none;
     color:#ABDAE1;
-}
-
-h1 {
-    margin: 80px auto;
-    text-align: center;
-    font-size: 36px;
-    font-family:'Mali', cursive;
-
 }
    
     
