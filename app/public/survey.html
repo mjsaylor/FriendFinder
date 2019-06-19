@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <h1>THIS IS THE SURVEY PAGE</h1>
+    <h1>Complete the survey to find your perfect match!</h1>
     <!-- Your survey should have 10 questions of your choosing. 
     Each answer should be on a scale of 1 to 5 based on 
     how much the user agrees or disagrees with a question. -->
@@ -22,13 +22,21 @@
     <container class="main">
         <div class="survey">
             <form>
-                Name
-                <input type="text" id="name" placeholder="John Doe"><br>
-                Link to Photo:
-                <input type="text" id="photo"><br>
+                <div class="inputs">
+                    <h4>Name: </h4>
+                    <input type="text" class="input_box" id="name" placeholder="John Doe"><br>
+                    <h4>Link to Photo: </h4>
+                    <input type="text" class="input_box" id="photo"><br>
+                </div>
+                <span class="intro">
+                    <h3>
+                        How well do these describe you on a scale of 1-5?<br>
+                        1 = "Not at All", 5 = "Totally Me"
+                    </h3>
+                </span>
                 <div class="question" id="question1">
-                    <h2>Question 1</h2>
-                    <h4>I have an assertive personality</h4>
+                    <!-- <h2>Question 1</h2> -->
+                    <h4>I would rather read a book than watch TV</h4>
                     <select class="survey-option">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -38,8 +46,8 @@
                     </select>
                 </div>
                 <div class="question" id="question2">
-                    <h2>Question 2</h2>
-                    <h4>This is Question 2</h4>
+                    <!-- <h2>Question 2</h2> -->
+                    <h4>I would die for my favorite sports team</h4>
                     <select class="survey-option">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -49,8 +57,8 @@
                     </select>
                 </div>
                 <div class="question" id="question3">
-                    <h2>Question 3</h2>
-                    <h4>This is Question 3</h4>
+                    <!-- <h2>Question 3</h2> -->
+                    <h4>I am happy spending more than 5 hours on one activity</h4>
                     <select class="survey-option">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -60,8 +68,8 @@
                     </select>
                 </div>
                 <div class="question" id="question4">
-                    <h2>Question 4</h2>
-                    <h4>This is Question 4</h4>
+                    <!-- <h2>Question 4</h2> -->
+                    <h4>I need other people around me to be happy.</h4>
                     <select class="survey-option">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -71,8 +79,8 @@
                     </select>
                 </div>
                 <div class="question" id="question5">
-                    <h2>Question 5</h2>
-                    <h4>This is Question 5</h4>
+                    <!-- <h2>Question 5</h2> -->
+                    <h4>I like right angles more than curves</h4>
                     <select class="survey-option">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -82,8 +90,8 @@
                     </select>
                 </div>
                 <div class="question" id="question6">
-                    <h2>Question 6</h2>
-                    <h4>This is Question 6</h4>
+                    <!-- <h2>Question 6</h2> -->
+                    <h4>I remember what it was like to be a kid</h4>
                     <select class="survey-option">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -93,8 +101,8 @@
                     </select>
                 </div>
                 <div class="question" id="question7">
-                    <h2>Question 7</h2>
-                    <h4>This is Question 7</h4>
+                    <!-- <h2>Question 7</h2> -->
+                    <h4>I have seen most of the movies people consider "classics"</h4>
                     <select class="survey-option">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -104,8 +112,8 @@
                     </select>
                 </div>
                 <div class="question" id="question8">
-                    <h2>Question 8</h2>
-                    <h4>This is Question 8</h4>
+                    <!-- <h2>Question 8</h2> -->
+                    <h4>My personal style is reflected in my clothing</h4>
                     <select class="survey-option">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -115,8 +123,8 @@
                     </select>
                 </div>
                 <div class="question" id="question9">
-                    <h2>Question 9</h2>
-                    <h4>This is Question 9</h4>
+                    <!-- <h2>Question 9</h2> -->
+                    <h4>I prefer constant snacking to full meals</h4>
                     <select class="survey-option">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -126,8 +134,8 @@
                     </select>
                 </div>
                 <div class="question" id="question10">
-                    <h2>Question 10</h2>
-                    <h4>This is Question 10</h4>
+                    <!-- <h2>Question 10</h2> -->
+                    <h4>I always wanted to live in a big city</h4>
                     <select class="survey-option">
                         <option value="1">1</option>
                         <option value="2">2</option>
