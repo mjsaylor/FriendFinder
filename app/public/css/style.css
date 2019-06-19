@@ -12,7 +12,7 @@ body {
 
 .content {
     width: 800px;
-    margin: 100px auto;
+    margin: 50px auto;
     height: 400px;
     padding: 60px;
     background-color: #B3C2E2;
@@ -26,10 +26,11 @@ body {
     height: 25px;
     padding: 12px 6px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 2px solid #ABDAE1;
     border-radius: 4px;
     background-color: #f8f8f8;
     resize: none;
+    color: #907AD6
 }
 
 .survey-option {
@@ -38,11 +39,12 @@ body {
     height: 25px;
     padding: 12px 6px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 2px solid ##ABDAE1;
     border-radius: 4px;
     background-color: #f8f8f8;
     font-size: 16px;
     resize: none;
+    color: #907AD6
 }
 
 .question {
