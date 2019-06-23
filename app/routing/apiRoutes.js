@@ -7,15 +7,17 @@ app.get("/api/friends", function (req, res) {
     res.json(friendData);
 });
 
+let diffSumArray = []
+
 function compareScores(scoreArr1, scoreArr2) {
     let diffSum = 0
     for (i = 0; i < scoreArr1.length; i++) {
-        console.log(scoreArr1[i])
         let diff = parseInt(scoreArr1[i]) - parseInt(scoreArr2[i]);
         let absValDiff = Math.abs(diff);
         diffSum += absValDiff
-        console.log(diffSum)
     } 
+    console.log(`This is the diffSum: ${diffSum}`)
+    diffSumArray.push(diffSum)    
 }
 
 // A POST routes /api/friends. 
@@ -25,16 +27,20 @@ console.log("Post Request received")
 // console.log(req.body)
 
 let newUserScores = req.body.scores
-// console.log(userScores)
+console.log(newUserScores)
 
 
-let existingUserScores = []
 for (let i = 0; i < friendData.length; i++){
-    let scores = friendData[i].scores 
-    existingUserScores.push(scores);  
+    let existingUserScores = friendData[i].scores
+    compareScores(newUserScores, existingUserScores)
 }
 
-compareScores(newUserScores, existingUserScores)
+let minSum = Math.min(...diffSumArray)
+let yourFriend = friendData[diffSumArray.indexOf(minSum)]
+console.log(yourFriend)
+
+
+
 friendData.push(req.body); 
 }); 
 }

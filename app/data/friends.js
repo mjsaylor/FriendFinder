@@ -17,7 +17,7 @@ const friendsArray = [
     {
         name: "Matt",
         photo: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjbmZOc_OfiAhVDR60KHQDlCnIQjRx6BAgBEAU&url=https%3A%2F%2Fwww.ioimprov.com%2Fperformers%2Fmatt-myers%2F&psig=AOvVaw0ETa-YqFXGA6GHQeCh_cRb&ust=1560567259828524",
-        scores: [2, 2, 2, 3, 5, 4, 1, 4, 4, 3]
+        scores: [2, 2, 2, 3, 5, 4, 1, 4, 4, 5]
     }
 ]
 
