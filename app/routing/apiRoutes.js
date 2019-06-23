@@ -37,9 +37,9 @@ for (let i = 0; i < friendData.length; i++){
 
 let minSum = Math.min(...diffSumArray)
 let yourFriend = friendData[diffSumArray.indexOf(minSum)]
-console.log(yourFriend)
+// console.log(`Your friend is ${JSON.stringify(yourFriend.name)}`)
 
-
+res.json(yourFriend)
 
 friendData.push(req.body); 
 }); 

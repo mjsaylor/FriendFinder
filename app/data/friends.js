@@ -11,7 +11,7 @@ const friendsArray = [
     },
     {
         name: "Christina",
-        photo: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwikgab3--fiAhVHnq0KHUYRCeQQjRx6BAgBEAU&url=https%3A%2F%2Ftwitter.com%2Fchristinafoust&psig=AOvVaw0JnBYYMnuAeW9d_RH6WOTF&ust=1560567175246936",
+        photo: "https://pbs.twimg.com/profile_images/906999459204100097/MI5pPczJ_400x400.jpg",
         scores: [1, 2, 3, 4, 3, 5, 2, 2, 5, 3]
     },
     {
