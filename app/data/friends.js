@@ -1,7 +1,7 @@
 const friendsArray = [
     {
         name: "Maggie Jo",
-        photo: "https://www.google.com/url?sa=i&source=imahttps://singandstomp.files.wordpress.com/2019/02/maggiejo.jpg",
+        photo: "https://singandstomp.files.wordpress.com/2019/02/maggiejo.jpg",
         scores: [5, 3, 4, 5, 2, 2, 4, 3, 3, 5]
     }, 
     {
